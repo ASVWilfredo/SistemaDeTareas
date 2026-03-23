@@ -43,7 +43,7 @@
       <AnchorPane layoutX="36.0" layoutY="289.0" prefHeight="69.0" prefWidth="624.0">
          <children>
             <Button fx:id="agregarboton" layoutX="26.0" layoutY="22.0" mnemonicParsing="false" onAction="#agregarTarea" style="-fx-background-color: #1d3557;" text="Agregar" textFill="#f1faee" />
-            <Button fx:id="modificarboton" layoutX="179.0" layoutY="22.0" mnemonicParsing="false" style="-fx-background-color: #1d3557;" text="Modificar" textFill="#f1faee" />
+            <Button fx:id="modificarboton" layoutX="179.0" layoutY="22.0" mnemonicParsing="false" onAction="#modificarTarea" style="-fx-background-color: #1d3557;" text="Modificar" textFill="#f1faee" />
             <Button fx:id="eliminarboton" layoutX="346.0" layoutY="22.0" mnemonicParsing="false" style="-fx-background-color: #e63946;" text="Eliminar" textFill="#f1faee" />
             <Button fx:id="limpiarboton" layoutX="508.0" layoutY="22.0" mnemonicParsing="false" style="-fx-background-color: #fff60a;" text="Limpiar forma" />
          </children>
