@@ -38,8 +38,10 @@ El sistema está organizado en capas siguiendo el patrón MVC:
   TareaController: maneja las peticiones HTTP (GET, POST, PUT, DELETE).
 
   
-🔄 Funcionamiento del sistema
+🔄 Funcionamiento del sistema:
+
 El flujo del sistema es el siguiente:
+
 El cliente realiza una petición HTTP (por ejemplo: GET /tareas)
 El controlador recibe la petición
 El servicio procesa la lógica
