@@ -2,7 +2,7 @@
 
 Este proyecto es una API REST desarrollada con Spring Boot que permite gestionar tareas, incluyendo operaciones básicas como crear, listar, actualizar y eliminar tareas.
 
-🚀 Tecnologías utilizadas
+🚀 Tecnologías utilizadas:
 Java
 Spring Boot
 Spring Data JPA
@@ -10,28 +10,28 @@ MySQL
 Maven
 
 
-🧩 Estructura del proyecto
+🧩 Estructura del proyecto:
 El sistema está organizado en capas siguiendo el patrón MVC:
 
-  📦 Modelo (Entity)
+  📦 Modelo (Entity):
   Las clases de esta capa representan las tablas de la base de datos.
   
   Ejemplo:
   Tarea: contiene atributos como id, nombre, descripción, estado, etc.
   
-  📦 Repositorio (Repository)
+  📦 Repositorio (Repository):
   Encargado de la comunicación con la base de datos mediante JPA.
   
   Ejemplo:
   TareaRepository: extiende de JpaRepository y permite realizar operaciones CRUD sin escribir SQL.
   
-  📦 Servicio (Service)
+  📦 Servicio (Service):
   Aquí se encuentra la lógica del negocio.
   
   Ejemplo:
   TareaService: contiene métodos para guardar, actualizar, eliminar y consultar tareas.
   
-  📦 Controlador (Controller)
+  📦 Controlador (Controller):
   Expone los endpoints de la API.
   
   Ejemplo:
