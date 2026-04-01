@@ -40,8 +40,8 @@ El sistema está organizado en capas siguiendo el patrón MVC:
   
 🔄 Funcionamiento del sistema
 El flujo del sistema es el siguiente:
-  *El cliente realiza una petición HTTP (por ejemplo: GET /tareas)
-  *El controlador recibe la petición
-  *El servicio procesa la lógica
-  *El repositorio accede a la base de datos
-  *Se devuelve la respuesta al cliente
+El cliente realiza una petición HTTP (por ejemplo: GET /tareas)
+El controlador recibe la petición
+El servicio procesa la lógica
+El repositorio accede a la base de datos
+Se devuelve la respuesta al cliente
