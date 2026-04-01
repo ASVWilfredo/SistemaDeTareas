@@ -3,11 +3,11 @@
 Este proyecto es una API REST desarrollada con Spring Boot que permite gestionar tareas, incluyendo operaciones básicas como crear, listar, actualizar y eliminar tareas.
 
 🚀 Tecnologías utilizadas:
-Java
-Spring Boot
-Spring Data JPA
-MySQL
-Maven
+Java,
+Spring Boot,
+Spring Data JPA,
+MySQL,
+Maven,
 
 
 🧩 Estructura del proyecto:
